@@ -155,3 +155,10 @@ all it does is 'git pull'
     forever stop 0
 
 Thanks, the YP team loves you!
+
+## install on heroku
+
+  tell heroku to install node and the pygments python lib:
+    heroku config:add BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
+   
+  also needed: requirements.txt and .bulildpacks
